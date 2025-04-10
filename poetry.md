@@ -1,41 +1,41 @@
 # Set the preferred Python version for creating venvs
 
-poetry env use <path-to-python-version>
+`poetry env use <path-to-python-version>`
 
 # Configure creating venvs inside the project folder
 
-poetry config virtualenvs.in-project true
+`poetry config virtualenvs.in-project true`
 
 # Create a virtual env
 
-poetry install
+`poetry install`
 
 # Check info about the env
 
-poetry env info
+`poetry env info`
 
 # Print the path to the env
 
-poetry env info -p
+`poetry env info -p`
 
 # Work within the venv (activate env)
 
-poetry env activate
+`poetry env activate`
 
-#Copy paste the command printed on the screeen to activate the env.
+`source <venv-name>/bin/activate`
 
 # Add a package
 
-poetry add <package-name> # for example, poetry add requests
+`poetry add <package-name>` # for example, poetry add requests
 
 # Remove a package
 
-poetry remove <package-name>
+`poetry remove <package-name>`
 
 # Deactivate and exit env
 
-deactivate
+`deactivate`
 
 # Remove venv
 
-poetry env remove
+`poetry env remove`
